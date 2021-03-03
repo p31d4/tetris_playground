@@ -13,4 +13,5 @@ RUN apt install -y vim=2:9.0.1378-2 \
         git=1:2.39.2-1.1 \
         lsb-release=12.0-1 \
         screen=4.9.0-4 \ 
-        python3-pygame=2.1.2+dfsg-5+b1
+        python3-pygame=2.1.2+dfsg-5+b1 \
+        pylint=2.16.2-2
