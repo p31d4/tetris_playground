@@ -9,15 +9,15 @@ RUN export TERM=xterm-256color
 RUN apt update
 
 # versions got from apt-cache policy <package>
-RUN apt install -y vim=2:9.0.1378-2 \
-        git=1:2.39.2-1.1 \
-        lsb-release=12.0-1 \
-        screen=4.9.0-4 \ 
-        python3-pygame=2.1.2+dfsg-5+b1 \
-        pylint=2.16.2-2 \
-        libasound2-dev=1.2.8-1+b1 \
-        libsdl2-dev=2.26.5+dfsg-1 \
-        lynx=2.9.0dev.12-1
+RUN apt install -y vim \
+        git \
+        lsb-release \
+        screen \ 
+        python3-pygame \
+        pylint \
+        libasound2-dev \
+        libsdl2-dev \
+        lynx
 
 # Just in case I don't have internet connection
 # Downloading to /usr/local/cargo/registry
